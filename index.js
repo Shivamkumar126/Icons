@@ -158,7 +158,7 @@ function display(){
         <img  class="icon_image" src=${icon.src} alt="icon1"   download >
         <h2 class = "icon_name">${icon.name}</h2>
         
-        <button id="download_btn" onClick = "downloadimage(${icon.id})">Download</button>
+        <button class="download_btn" onClick = "downloadimage(${icon.id})">Download</button>
         </div>
         `
     })
