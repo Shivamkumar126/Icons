@@ -6,17 +6,20 @@
 
 #all_icon_container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .each_icon{
-    
     border: 2px solid blue;
+    object-fit: contain;
+    width: 30%; 
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .icon_image{
     width: 10.5rem;
     height: 10.5rem;
-    object-fit: contain;
     cursor: pointer;
 }
 
